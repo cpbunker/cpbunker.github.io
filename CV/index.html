@@ -9,13 +9,17 @@
 </head>
 <body style="background-color:Snow">
 
+    <div class = "row">
+    <div class="col-sm-3"># left col</div><div class="col-sm-6"># mod col</div><div class="col-sm-3"># right col</div>
+    </div>
+ 
     <div class = "row"><!-- content row-->
 
          <!-- empty column -->
         <div class="col-sm-3"></div>   
 
         <!-- pdf render column -->
-        <div class = "col-sm-6" id="adobe-dc-view" style="width: 800px;"></div>
+        <div class = "col-sm-6" id="adobe-dc-view"></div>
         <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
         <script type="text/javascript">
             document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
